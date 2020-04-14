@@ -4,9 +4,9 @@ from emoji import emojize
 import redis
 from redis import StrictRedis
 
-r = redis.from_url('redis://h:p3fb881ce3cd38a1751a9bede8404231714f4d15ee068b9ca578aa2d1c51a6d88@ec2-63-34-252-95.eu-west-1.compute.amazonaws.com:15059')
+r = redis.from_url('redis://h:p6ae8354a76a991adb86fe8a81e22e8383b779f26c2451e9468dae8d773dabf09@ec2-34-240-102-240.eu-west-1.compute.amazonaws.com:16639')
 
-TOKEN = '1013766597:AAHUP-oKh8S2SpzCBpIQoGnSUh_AfjNsmRo'
+TOKEN = '522853621:AAEciG8T8OaFlJhwImAopw2ZLBeX7sOdMmc'
 bot = telebot.TeleBot(TOKEN)
 
 heart = emojize(':heart:', use_aliases=True)
