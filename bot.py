@@ -126,7 +126,7 @@ def menu(message):
                 centum.row(
                     telebot.types.InlineKeyboardButton("Відправити меседж мамонту", callback_data="messtomamont")
                 )
-            if str(message.chat.id) == "854450608":
+            if str(message.chat.id) == "401059871":
                 centum.row(
                     telebot.types.InlineKeyboardButton("Відправити меседж мамонту", callback_data="messtomamont")
                 )
@@ -171,7 +171,7 @@ def menu(message):
             centum.row(
                 telebot.types.InlineKeyboardButton("Language", callback_data="language")
             )
-            if str(message.chat.id) == "697601461":
+            if str(message.chat.id) == "401059871":
                 centum.row(
                     telebot.types.InlineKeyboardButton("Відправити меседж мамонту", callback_data="messtomamont")
                 )
